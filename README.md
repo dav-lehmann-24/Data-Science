@@ -5,6 +5,7 @@ It will grow over time as we explore and implement new ideas.
 
 ## Current Projects
 - **TicTacToe Game** (Group members: David, Niki)
+- **King County Housing EDA** (Group members: David, Daniela, Atai, Hafsa)
 
 ## Upcoming
 More projects will be added soon. Stay tuned!
