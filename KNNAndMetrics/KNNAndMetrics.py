@@ -180,7 +180,7 @@ def part4_sweep_k(ks=(1,3,5,7,15)):
     print("\n[Part 4] Accuracy vs k")
     print(df.to_string(index=False))
 
-    # Optional: CV on Iris (as hinted in the PDF)
+    # Optional: CV on Iris
     cv_rows = []
     for k in ks:
         scores = cross_val_score(KNeighborsClassifier(n_neighbors=k, metric='euclidean'),
