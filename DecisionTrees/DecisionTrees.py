@@ -242,7 +242,7 @@ def run_decision_tree_regression(df: pd.DataFrame) -> None:
         X_train_full, y_train_full, test_size=0.20, random_state=RANDOM_STATE
     )
 
-    # 3) Preprocess (reusing your manual helpers)
+    # 3) Preprocess (reusing manual helpers)
     prep = preprocess_fit(X_train_raw)
     X_train = prep["X"]
     X_val = preprocess_transform(X_val_raw, prep["state"])
