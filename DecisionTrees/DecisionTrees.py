@@ -73,7 +73,7 @@ def pick_plot_features(df: pd.DataFrame, k: int = 3) -> list[str]:
             break
     return chosen[:k]
 
-# Manual preprocessing (no sklearn preprocessors)
+# Manual preprocessing
 def preprocess_fit(X: pd.DataFrame) -> dict:
     X = X.copy()
     num_cols = X.select_dtypes(include=[np.number]).columns.tolist()
