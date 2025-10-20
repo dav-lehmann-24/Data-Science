@@ -8,6 +8,7 @@ It will grow over time as we explore and implement new ideas.
 - **King County Housing EDA** (Group members: David, Daniela, Atai, Hafsa)
 - **KNN and Metrics** (Group members: David, Daniela, Emin, Joaquin)
 - **King County Housing Regression** (Group members: Atai, Benni, David, Hafsa)
+- **King County Housing Decision Tree** (Group members: Atai, David, Ephraim, Niki, Petra)
 
 ## Upcoming
 More projects will be added soon. Stay tuned!
